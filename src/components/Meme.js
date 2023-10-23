@@ -1,9 +1,9 @@
 import React from 'react' 
-import memeData from '../memeData'
+import memeData from '../memesData'
 
 
 export default function Meme(){
-    const [memeImage, setMemeImage] = React.useState("")
+    const [memeImage, setMemeImage] = React.useState("https://i.imgflip.com/30b1gx.jpg")
 
     let url
     function getMemeImage(){
