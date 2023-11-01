@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-import './App.css';
+//import './App.css';
+import './meme.css'
 import Header from './components/Header';
 import Meme from './components/Meme';
 
